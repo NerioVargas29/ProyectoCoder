@@ -67,11 +67,12 @@ ul li a{
 /*carrusel botstrap*/
 .contenedor-principal{
     width: 100vw;
+    display: flex;
+    justify-content: center;
 
 }
 
 .contenedor-carrusel{
-
     width: 60%;
     padding: 15px;
     display: flex;
@@ -79,8 +80,38 @@ ul li a{
     flex-wrap: wrap;
     align-items: center;
     align-content: center;
+    justify-content: center;
 }
 
+
+
+a{
+    text-decoration: none;
+}
+
+.sub-navegacion ul {
+    list-style: none;
+    display: flex;
+    flex-direction:row;
+    justify-content: end;
+    padding:5px;
+    margin: 5px;
+}
+
+.iconos-sociales{
+    
+    list-style: none;
+    display: flex;
+    flex-direction:row-reverse;
+    justify-content:center;
+    flex-wrap: wrap;
+    align-items: baseline;
+
+    
+}
+.parrafo-principal{
+    padding: 10px;
+    margin-bottom: 20px;
 }
 /*Inicio Carrusel
     
@@ -118,9 +149,7 @@ section{
     justify-content: space-between;
 }
 
-a{
-    text-decoration: none;
-}
+
 
 
 .imagen-carrusel{
@@ -131,26 +160,7 @@ a{
 
 
 
-.sub-navegacion ul {
-    list-style: none;
-    display: flex;
-    flex-direction:row;
-    justify-content: end;
-    padding:5px;
-    margin: 5px;
-}
-
-.iconos-sociales{
-    
-    list-style: none;
-    display: flex;
-    flex-direction:row-reverse;
-    justify-content:center;
-    flex-wrap: wrap;
-    align-items: baseline;
-
-    
-}*/
+*/
 
 /*inicio css portafolio*/
 
