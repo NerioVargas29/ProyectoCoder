@@ -64,9 +64,26 @@ ul li a{
     
 }
 
+/*carrusel botstrap*/
+.contenedor-principal{
+    width: 100vw;
 
-/*Inicio Carrusel*/
+}
 
+.contenedor-carrusel{
+
+    width: 60%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+}
+/*Inicio Carrusel
+    
 section{
     padding-top: 20px;
     padding-bottom: 20px;
@@ -133,7 +150,7 @@ a{
     align-items: baseline;
 
     
-}
+}*/
 
 /*inicio css portafolio*/
 
